@@ -1,0 +1,62 @@
+body{
+    background-image: url(img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: cover;
+}
+ li{
+    list-style: none;
+ }
+a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+a:hover{
+    color: black;
+}
+header{
+    position: relative;
+    padding: 0px;
+}
+.navbar{
+ width: 100%;
+ height: 60px;
+ display: flex;
+ max-width: 1200px;
+ margin: 0 auto;
+ align-items: center;
+ justify-content: space-between;
+
+}
+.navbar .logo a{
+    font-size: 300px;
+    font-weight: bold;
+
+}
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+  
+}
+h1{
+    color: white;
+    align-items: center;
+    margin-top: 300px;
+    font-size: xx-large;
+    margin-left: 200px;
+}
+p{
+    font-size: x-large;
+    color: white;
+    margin-left: 200px
+    
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: blue;
+    margin-left: 200px;
+}
